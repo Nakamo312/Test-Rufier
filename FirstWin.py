@@ -35,9 +35,10 @@ class FirstScreen(QWidget):
         self.to_second.clicked.connect(self.next)
     def next(self):
         self.hide()
-        self.second = SecondWin()     
+        self.second = SecondWin() 
 
 
+print()
 app = QApplication([])  
 
 window = FirstScreen()
